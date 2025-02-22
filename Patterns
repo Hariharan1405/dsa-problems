@@ -1,0 +1,27 @@
+#Pattern1
+* * * * 
+* * * * 
+* * * * 
+* * * * 
+public class Main {
+
+	static void pattern1(int rows, int columns) {
+		for(int i=1; i<=rows*columns; i++) {
+		    System.out.print("* ");
+			/*for(int j=0; j<columns; j++) {
+				System.out.print("* ");
+			}*/
+			if(i % columns == 0){
+			    System.out.println();
+			}
+			
+		}
+	}
+	
+	public static void main(String[] args) {
+		pattern1(4, 4);
+	}
+	
+}
+
+#Pattern2
